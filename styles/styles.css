@@ -27,12 +27,6 @@
     column-gap: 04px;
 }
 
-.productosPagina {
-    display: flex;
-    align-items:center;
-    
-}
-
 
 .cabecera {
     display: flex;
@@ -60,6 +54,14 @@ ul li a {
     color: white;
     width: 100px;
     padding: 10px;
+    cursor: pointer;
+    transition: padding 0.5s;
+}
+
+
+ul li a:hover {
+    padding: 15px;
+
 }
 
 
@@ -113,6 +115,22 @@ footer li a {
     color: white;
 
 }
+
+.productosPagina {
+    display: flex;
+    align-items:center;
+ }
+  
+ .productosPagina img {
+    transition: all 0.3s;
+
+
+}
+
+.productosPagina img:hover {
+    width: 400px;
+}
+
 
 
 .imglogo {
@@ -168,6 +186,8 @@ padding: 15px;
 
 
 }
+
+
 
 @media screen and (max-widht:480px) {
     .cuerpo {
