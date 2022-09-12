@@ -4,46 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css" />
     <title>Tienda Mora</title>
-
-  </head>
-  <body class="cuerpoPagina">
-    <header class="cabecera">
-      <a href="/index.html"><img class= "imglogo" src="../images/logo.png" alt="" width="13%" /></a>
-      <nav>
-        <ul class="cabecera_links">
-          <li><a href="./pagina1.html">¡ PROMO !</a></li>
-          <li><a href="./pagina2.html">Pagina 2</a></li>
-          <li><a href="./pagina3.html">Pagina 3</a></li>
-          <li><a href="./pagina4.html">Pagina 4</a></li>
-          <li><a href="./formulario.html">Formulario</a></li>
-        </ul>
-      </nav>
-    </header>
-    <aside class="aside">
-      <h2 class>PRODUCTOS PROMOCIONALES</h2>
-    </aside>
-    <main class="productosPagina">
-      <a href="#"><img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg"width="250px"/></a>
-      <p> Lata de Coca-Cola.</p>
-      <a href="#"><img src="https://www.casa-segal.com/wp-content/uploads/2020/03/coca-cola-500cc-almacen-gaseosas-casa-segal-mendoza-600x600.jpg"width="250px"/></a>
-      <p> Botella de Coca-Cola chica.</p>
-      <a href="#"><img src="https://valsegura.com/wp-content/uploads/2016/02/cc-33cl.jpg" width="250px"/></a>
-      <p> Botella de Coca-Cola chica (vidrio)</p>
-      <a href="#"><img src="https://wokin.com.py/wp-content/uploads/2019/06/coca.jpg" width="250px" /></a>
-      <p> Botella de Coca-Cola grande.</p>
-      <a href="#">Ver más...</a>
-    </main>
-    <section class="section">
-      <img src="https://www.casa-segal.com/wp-content/uploads/2020/03/coca-cola-500cc-almacen-gaseosas-casa-segal-mendoza-600x600.jpg alt=" width="13%"/>
+    <body class="container-fluid container-desarrollo">
+      <section class="row">
+        <section class="col">
+          <header class="cabecera">
+            <a href="/index.html"><img class= "imglogo" src="../images/logo.png" alt="" width="13%" /></a>
+            <nav>
+              <ul class="cabecera_links">
+                <li><a href="./pagina1.html">Pagina 1</a></li>
+                <li><a href="./pagina2.html">Pagina 2</a></li>
+                <li><a href="./pagina3.html">Pagina 3</a></li>
+                <li><a href="./pagina4.html">Pagina 4</a></li>
+                <li><a href="./formulario.html">Formulario</a></li>
+              </ul>
+            </nav>
+          </header>
+      </section>
     </section>
-
-    <footer class= "pieDePagina_links">
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Ayuda</a></li>
-    </footer>
+      <section class="row">
+      <section class="col-lg-3">
+        <section class="card card-productos">
+          <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lata de Coca-Cola.</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </section>
+       </section>
+      <section class="col-lg-3">
+        <section class="card">
+          <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lata de Coca-Cola.</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </section>
+        </section>
+        <section class="col-lg-3">
+        <section class="card card-productos">
+          <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lata de Coca-Cola.</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </section>
+        </section>
+        <section class="col-lg-3">
+          <section class="card card-productos">
+            <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lata de Coca-Cola.</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </section>
+          </section>
+          <section class="row">
+          <footer class= "col p-5 pieDePagina_links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Ayuda</a></li>
+          </footer>
+        </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
