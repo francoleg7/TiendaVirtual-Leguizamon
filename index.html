@@ -11,16 +11,53 @@
     <body class="container-fluid">
           <header class="cabecera">
             <a href="../index.html"><img class= "imglogo" src="../images/logo.png" alt="" width="13%" /></a>
-            <nav>
-              <ul class="cabecera_links">
-                <li><a href="/pages/pagina1.html">¡ PROMO !</a></li>
-                <li><a href="./pagina2.html">Pagina 2</a></li>
-                <li><a href="./pagina3.html">Pagina 3</a></li>
-                <li><a href="./pagina4.html">Pagina 4</a></li>
-                <li><a href="./formulario.html">Formulario</a></li>
-              </ul>
+            <section class="col cabecera">
+            <nav class=" navbar navbar-expand-md navbar-dark bg-dark">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./pages/pagina1.html" class="nav-link active" href="#">¡ PROMO !</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ofertas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ayuda</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar"
+                    aria-label="Buscar"
+                  />
+                  <button class="btn btn-outline-primary" type="submit">
+                    Buscar
+                  </button>
+                </form>
+              </div>
             </nav>
+            <a href="../index.html"><img class= "imgcarro" src="images/carrito.png" alt="carrito de compras" /></a>
           </header>
+      </section>
           <section class="row">
             <aside class="col aside">
               <p>¡CONOCÉ TODAS NUESTRAS PROMOCIONES!</p>
@@ -34,7 +71,7 @@
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img src="images/Sin_titulo.png" class="d-block w-100" alt="...">
+              <a href="./pages/pagina1.html"><img src="images/Sin_titulo.png" class="d-block w-100" alt="..."></a>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img src="images/candy.png" class="d-block w-50" alt="...">

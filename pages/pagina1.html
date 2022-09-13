@@ -9,24 +9,60 @@
     <link rel="stylesheet" href="/styles/styles.css" />
     <title>Tienda Mora</title>
     <body class="container-fluid container-desarrollo">
-      <section class="row">
+      <section class="row p-3">
         <section class="col">
           <header class="cabecera">
-            <a href="/index.html"><img class= "imglogo" src="../images/logo.png" alt="" width="13%" /></a>
-            <nav>
-              <ul class="cabecera_links">
-                <li><a href="./pagina1.html">Pagina 1</a></li>
-                <li><a href="./pagina2.html">Pagina 2</a></li>
-                <li><a href="./pagina3.html">Pagina 3</a></li>
-                <li><a href="./pagina4.html">Pagina 4</a></li>
-                <li><a href="./formulario.html">Formulario</a></li>
-              </ul>
+            <a href="../index.html"><img class= "imglogo" src="../images/logo.png" alt="" width="13%" /></a>
+            <section class="col cabecera">
+            <nav class=" navbar navbar-expand-md navbar-dark bg-dark">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar"
+                    aria-label="Buscar"
+                  />
+                  <button class="btn btn-outline-primary" type="submit">
+                    Buscar
+                  </button>
+                </form>
+              </div>
             </nav>
+            <a href="../index.html"><img class= "imgcarro" src="../images/carrito.png" alt="carrito de compras" /></a>
           </header>
       </section>
     </section>
       <section class="row">
-      <section class="col-lg-3">
+      <section class="col-sm-12 col-md-6 col-lg-3">
         <section class="card card-productos">
           <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -36,7 +72,7 @@
           </div>
         </section>
        </section>
-      <section class="col-lg-3">
+      <section class="col-sm-12 col-md-6 col-lg-3">
         <section class="card">
           <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -46,7 +82,7 @@
           </div>
         </section>
         </section>
-        <section class="col-lg-3">
+        <section class="col-sm-12 col-md-6 col-lg-3">
         <section class="card card-productos">
           <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -56,7 +92,7 @@
           </div>
         </section>
         </section>
-        <section class="col-lg-3">
+        <section class="col-sm-12 col-md-6 col-lg-3">
           <section class="card card-productos">
             <img src="https://alemaxikiosco.com.ar/wp-content/uploads/2020/09/cocalata.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -66,7 +102,7 @@
             </div>
           </section>
           </section>
-          <section class="row">
+          <section class="col">
           <footer class= "col p-5 pieDePagina_links">
             <li><a href="#">Instagram</a></li>
             <li><a href="#">Facebook</a></li>
