@@ -1,0 +1,19 @@
+footer {
+    li a {color: white;
+        
+    }
+    .pieDePagina_links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, rgb(224, 147, 231), violet,rgb(126, 66, 126),rgb(58, 34, 58));
+        list-style: none;
+        font-style:inherit;
+    }
+    .foot {
+        color: white;
+        background-color: mediumslateblue;
+        font-style: oblique;
+}
+}

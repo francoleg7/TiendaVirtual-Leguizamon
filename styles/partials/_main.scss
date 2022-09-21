@@ -1,0 +1,33 @@
+section {
+    .formulario{
+        background-color: blueviolet;
+        color: white;
+        font-style: oblique;
+    }
+    .formulario button{
+        border: none;
+        padding:10px;
+        background-color: white;
+        border-radius: 03px;
+        border-bottom: 03px solid, blue;
+        cursor: pointer;
+        transition: 1.5s;
+    }
+    
+    .formulario button:hover {
+    padding: 15px;
+    }
+    .envio {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: padding 0.5s;
+    }
+    
+    .envio:hover{
+        padding: 15px;
+    }
+    
+}

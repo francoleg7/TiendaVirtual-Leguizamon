@@ -1,0 +1,11 @@
+.aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style:oblique;
+    align-items: center;
+    animation-name: efectoUno;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
+    font-size: 10px;
+}

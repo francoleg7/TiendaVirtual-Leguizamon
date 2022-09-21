@@ -1,137 +1,135 @@
-.container-desarrollo {
-    background-color: rgb(224, 147, 231);
-}
-
-.cabecera {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(224, 147, 231);
-}
-
-
 header {
-    background-color: rgb(224, 147, 231);
+  background-color: rgb(224, 147, 231);
 }
-header nav div{
-    background-image: linear-gradient(rgb(224, 147, 231),violet, rgb(58, 34, 58));
-    font-family: Impact;
-    justify-content: space-around;
+header .cabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(224, 147, 231);
 }
-
-
-ul li a {
-    width: 150px;
-    display: flex;
-    color: white;
-    cursor: pointer;
-    transition: padding 0.5s;
+header nav div {
+  background-image: linear-gradient(rgb(224, 147, 231), violet, rgb(58, 34, 58));
+  font-family: Impact;
+  justify-content: space-around;
 }
-
-ul li a:hover {
-    padding: 15px;
+header ul li a {
+  width: 150px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  transition: padding 0.5s;
 }
-
-.aside {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-style:oblique;
-    align-items: center;
-    animation-name: efectoUno;
-    animation-iteration-count: infinite;
-    animation-duration:10s;
-    font-size: 10px;
+header ul li a:hover {
+  padding: 15px;
 }
-
-.cabeceraDos {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(224, 147, 231);
-    font-style: oblique;
+header .imglogo {
+  border-radius: 150px;
+  border: 1px solid rgb(83, 45, 83);
+  width: 90px;
+}
+header .imgcarro {
+  width: 50px;
+  height: 50px;
 }
 
-.pieDePagina_links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to bottom, rgb(224, 147, 231), violet,rgb(126, 66, 126),rgb(58, 34, 58));
-    list-style: none;
-    font-style:inherit;
+section .formulario {
+  background-color: blueviolet;
+  color: white;
+  font-style: oblique;
+}
+section .formulario button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  border-radius: 3px;
+  border-bottom: 3px solid, blue;
+  cursor: pointer;
+  transition: 1.5s;
+}
+section .formulario button:hover {
+  padding: 15px;
+}
+section .envio {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: padding 0.5s;
+}
+section .envio:hover {
+  padding: 15px;
 }
 
 footer li a {
-    color: white;
+  color: white;
+}
+footer .pieDePagina_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgb(224, 147, 231), violet, rgb(126, 66, 126), rgb(58, 34, 58));
+  list-style: none;
+  font-style: inherit;
+}
+footer .foot {
+  color: white;
+  background-color: mediumslateblue;
+  font-style: oblique;
 }
 
-.imglogo {
-    border-radius:150px;
-    border:01px solid rgb(83, 45, 83);
-    width: 90px;
+.aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-style: oblique;
+  align-items: center;
+  -webkit-animation-name: efectoUno;
+          animation-name: efectoUno;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  font-size: 10px;
 }
 
-.imgcarro {
-    width: 50px;
-    height: 50px;
+@-webkit-keyframes efectoUno {
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: red;
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: aqua;
+  }
 }
-
-.formulario{
-    background-color: blueviolet;
-    color: white;
-    font-style: oblique;
-}
-
-.formulario button{
-    border: none;
-    padding:10px;
-    background-color: white;
-    border-radius: 03px;
-    border-bottom: 03px solid, blue;
-    cursor: pointer;
-    transition: 1.5s;
-}
-
-.formulario button:hover {
-padding: 15px;
-}
-
-.foot {
-    color: white;
-    background-color: mediumslateblue;
-    font-style: oblique;
-}
-
-
-.envio {
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: padding 0.5s;
-}
-
-.envio:hover{
-    padding: 15px;
-}
-
 
 @keyframes efectoUno {
-    0% {
-        background-color: green;
-    }
-    25% {
-        background-color: blue;
-    }
-    50% {
-        background-color: red;
-    }
-    75% {
-        background-color: yellow;
-    }
-    100% {
-        background-color: aqua;
-    }
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: red;
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: aqua;
+  }
 }
+.container-desarrollo {
+  background-color: rgb(224, 147, 231);
+}/*# sourceMappingURL=styles.css.map */
